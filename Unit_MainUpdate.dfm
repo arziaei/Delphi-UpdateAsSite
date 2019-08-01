@@ -1,0 +1,201 @@
+object Form_MainUpdate: TForm_MainUpdate
+  Left = 192
+  Top = 124
+  BiDiMode = bdRightToLeft
+  Caption = #1576#1585#1608#1586' '#1585#1587#1575#1606#1740' '#1606#1585#1605' '#1575#1601#1586#1575#1585' '#1605#1575#1604#1740' '#1608' '#1575#1583#1575#1585#1740' '#1576#1585#1570#1740#1606#1583' '#1605#1582#1589#1608#1589' '#1587#1585#1608#1585
+  ClientHeight = 462
+  ClientWidth = 868
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Pitch = fpVariable
+  Font.Style = []
+  OldCreateOrder = False
+  ParentBiDiMode = False
+  Position = poDesktopCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 2
+    Width = 82
+    Height = 13
+    Caption = 'connection string'
+    Visible = False
+  end
+  object Button1: TButton
+    Left = 551
+    Top = 215
+    Width = 70
+    Height = 30
+    Caption = 'Get Sp'
+    TabOrder = 0
+    Visible = False
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 499
+    Height = 445
+    Align = alClient
+    BiDiMode = bdLeftToRight
+    ParentBiDiMode = False
+    ScrollBars = ssBoth
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 551
+    Top = 251
+    Width = 70
+    Height = 30
+    Caption = 'Update Sp'
+    TabOrder = 2
+    Visible = False
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 551
+    Top = 287
+    Width = 70
+    Height = 30
+    Caption = 'Get Exe'
+    TabOrder = 3
+    Visible = False
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 551
+    Top = 323
+    Width = 70
+    Height = 30
+    Caption = 'Update Exe'
+    TabOrder = 4
+    Visible = False
+    OnClick = Button4Click
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 21
+    Width = 449
+    Height = 21
+    BiDiMode = bdLeftToRight
+    ParentBiDiMode = False
+    TabOrder = 5
+    Text = 
+      'Provider=SQLOLEDB.1;Password=123;Persist Security Info=True;User' +
+      ' ID=sa;Initial Catalog=jahesh_Company;Data Source=UC-PC\V2012'
+    Visible = False
+  end
+  object Button5: TButton
+    Left = 388
+    Top = 48
+    Width = 69
+    Height = 25
+    Caption = 'connect'
+    TabOrder = 6
+    Visible = False
+    OnClick = Button5Click
+  end
+  object Edit2: TEdit
+    Left = 8
+    Top = 48
+    Width = 281
+    Height = 21
+    BiDiMode = bdLeftToRight
+    ParentBiDiMode = False
+    TabOrder = 7
+    Text = 'C:\barayand\Barayand.exe'
+    Visible = False
+  end
+  object Button6: TButton
+    Left = 551
+    Top = 179
+    Width = 70
+    Height = 30
+    Cursor = crHandPoint
+    Caption = 'Rename'
+    TabOrder = 8
+    Visible = False
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 551
+    Top = 144
+    Width = 70
+    Height = 30
+    Caption = 'Check charge'
+    TabOrder = 9
+    Visible = False
+    OnClick = Button7Click
+  end
+  object Panel1: TPanel
+    Left = 499
+    Top = 0
+    Width = 369
+    Height = 445
+    Align = alRight
+    TabOrder = 10
+    object Label2: TLabel
+      AlignWithMargins = True
+      Left = 4
+      Top = 64
+      Width = 361
+      Height = 13
+      Align = alTop
+      Caption = #1585#1608#1606#1583' '#1705#1575#1585
+      ExplicitLeft = 332
+      ExplicitWidth = 33
+    end
+    object Button_RunUpdate: TButton
+      AlignWithMargins = True
+      Left = 4
+      Top = 4
+      Width = 361
+      Height = 54
+      Cursor = crHandPoint
+      Align = alTop
+      Caption = #1588#1585#1608#1593' '#1576#1585#1585#1587#1740' '#1608' '#1576#1585#1608#1586' '#1585#1587#1575#1606#1740' '#1606#1587#1582#1607' '#1587#1585#1608#1585' '#1576#1585#1570#1740#1606#1583
+      TabOrder = 0
+      OnClick = Button_RunUpdateClick
+    end
+    object Memo2: TMemo
+      AlignWithMargins = True
+      Left = 4
+      Top = 83
+      Width = 361
+      Height = 358
+      Align = alClient
+      Alignment = taRightJustify
+      BiDiMode = bdLeftToRight
+      ParentBiDiMode = False
+      ScrollBars = ssBoth
+      TabOrder = 1
+    end
+  end
+  object StaticText1: TStaticText
+    Left = 0
+    Top = 445
+    Width = 868
+    Height = 17
+    Align = alBottom
+    Caption = '---'
+    TabOrder = 11
+  end
+  object ADOConnection1: TADOConnection
+    LoginPrompt = False
+    Provider = 'SQLOLEDB.1'
+    Left = 304
+    Top = 136
+  end
+  object ADOCommand1: TADOCommand
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 352
+    Top = 160
+  end
+end
