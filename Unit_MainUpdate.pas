@@ -78,6 +78,7 @@ Var
 
 function GetSQLUID(ADOConnection: ADODB.TADOConnection): string;
 begin
+  //For MySql
   Result := ADOConnection.Execute
       (
         'SELECT B.database_guid id ' +
