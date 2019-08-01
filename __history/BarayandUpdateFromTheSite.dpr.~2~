@@ -3,7 +3,7 @@ program BarayandUpdateFromTheSite;
 uses
   Forms,
   Unit_MainUpdate in 'Unit_MainUpdate.pas' {Form_MainUpdate},
-  Unit1 in 'Temp\Unit1.pas';
+  Unit1 in 'Unit1.pas';
 
 {$R *.res}
 

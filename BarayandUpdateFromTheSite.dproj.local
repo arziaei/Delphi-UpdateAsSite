@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2018/11/21 16:19:16.185.dfm,D:\Barayand\Delphi\Barayand UpDateAsSite\Unit1.dfm=D:\Barayand\Delphi\Barayand UpDateAsSite\Unit_MainUpdate.dfm</Transaction>
-    <Transaction>2018/11/21 16:19:16.185.pas,D:\Barayand\Delphi\Barayand UpDateAsSite\Unit1.pas=D:\Barayand\Delphi\Barayand UpDateAsSite\Unit_MainUpdate.pas</Transaction>
-    <Transaction>2018/11/21 16:21:37.003.dproj,D:\Barayand\Delphi\Barayand UpDateAsSite\Project1.dproj=D:\Barayand\Delphi\Barayand UpDateAsSite\BarayandUpdateFromTheSite.dproj</Transaction>
+    <Transaction>2018/11/21 16:19:16.185.pas,D:\Barayand\Delphi\Barayand UpDateAsSite\Unit_MainUpdate.pas=D:\Barayand\Delphi\Barayand UpDateAsSite\Unit1.pas</Transaction>
+    <Transaction>2018/11/21 16:19:16.185.dfm,D:\Barayand\Delphi\Barayand UpDateAsSite\Unit_MainUpdate.dfm=D:\Barayand\Delphi\Barayand UpDateAsSite\Unit1.dfm</Transaction>
+    <Transaction>2018/11/21 16:21:37.003.dproj,D:\Barayand\Delphi\Barayand UpDateAsSite\BarayandUpdateFromTheSite.dproj=D:\Barayand\Delphi\Barayand UpDateAsSite\Project1.dproj</Transaction>
+    <Transaction>2019/08/01 22:46:05.364,=D:\Barayand\Delphi\Barayand UpDateAsSite\Unit1.pas</Transaction>
+    <Transaction>2019/08/01 22:46:36.127,D:\Barayand\Delphi\Barayand UpDateAsSite\Temp\Unit1.pas=D:\Barayand\Delphi\Barayand UpDateAsSite\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
